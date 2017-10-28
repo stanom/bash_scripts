@@ -1,5 +1,5 @@
 #!/bin/bash
-# /etc/network/if-up.d/monitor_pripojenia_start
+# /etc/network/if-up.d/monitor_pripojenia_start.sh
 logdir=/var/log/pingpong
 if [ ! -d "${logdir}" ]; then
         mkdir ${logdir}
